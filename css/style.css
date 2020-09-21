@@ -27,15 +27,21 @@ body {
 
 .red, .redCir {
     background-color: red;
+    transition-property: transform;
+    transition-duration: 3s;
     
 }
 
 .yellow, .yellowCir {
     background-color: yellow;
+    transition-property: transform;
+    transition-duration: 3s;
 }
 
 .green, .greenCir {
     background-color: green;
+    transition-property: transform;
+    transition-duration: 3s;
 }
 
 .firstDiv > div, .secondDiv > div, .thirdDiv > div {
@@ -54,13 +60,8 @@ body {
 
 .red:hover, .yellow:hover, .green:hover
 {
-    -webkit-animation:spin 2s linear infinite;
-    -moz-animation:spin 2s linear infinite;
-    animation:spin 2s linear infinite;
+    transform: rotateY(180deg);
 }
-@-moz-keyframes spin { 100% { -moz-transform: rotate(180deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(180deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(180deg); transform:rotate(180deg); } }
 
 .redCir:hover, .yellowCir:hover, .greenCir:hover {
     opacity: 0%;
