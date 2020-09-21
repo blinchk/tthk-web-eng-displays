@@ -3,3 +3,30 @@ body {
     padding: 0;
     background-color: black;
 }
+
+.mainDiv {
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    background: #0099ff;
+}
+
+.red, .yellow, .green {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: red;
+    
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
